@@ -1,0 +1,63 @@
+Report 2
+
++++  Data types and Variables
+
+la declaration des varibales est tres important, il faut absolument declare le type de varibales en JAVA.
+
+En Java il ya principalement type de donnees.
+
+1- Primitives Data types, exemple: byte, short, int, long, float, double, boolean and char (ceci ont chacune grandeur)
+
+Data Type	Size		Description
+byte		1 byte		Stores whole numbers from -128 to 127
+short		2 bytes		Stores whole numbers from -32,768 to 32,767
+int		4 bytes		Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long		8 bytes		Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float		4 bytes		Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double		8 bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean		1 bit		Stores true or false values
+char		2 bytes		Stores a single character/letter or ASCII value
+
+Quelque exemples:
+
++ String : chaine de characteres "je veux apprendre JAVA!!"
+
++ int : pour les nombres entier exemple  1,100, 300 , 
+
++ float : nombre a virgule exemple 3,6
+
++ char : pour un character exemple 'A'
+
++ boolean : deux conditions true ou false
+
+
+
+
+2- Non-primitive Data type, example :  
+
+String: chaine de characteres "je veux apprendre JAVA!!"
+
+Arrays: plusieurs valeurs dans une seule variables. exemaple : String[] cars = {"Volvo", "BMW", "Ford", "Mazda"}
+        int[] myNum = {10, 20, 30, 40};
+
+Classes : les methodes et attribute d'un object qui est une copy de la classe.
+
+
+la difference des deux types est que les Primitives Data types sont predefinis par Java alors que 
+les Non-primitive Data types son definis par le programmeur.
+
+
+
+
+++++ Access Modifiers in Java (comment les method, constructeur et class sont accedes)
+
+++ four types of Access Modifiers in Jav
+
++ Private : methode uniquement accessible dans la meme class 
+
++ Protected : accessible dans le package et ces sous classes
+
++ Public: peut etre acceder partout dans le programme.  a l'interieur et a l exterieur de la class.
+
++ default:  accessible par les class dans le package uniquement 
+
